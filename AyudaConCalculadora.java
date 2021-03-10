@@ -8,16 +8,18 @@ public class Operaciones{
 
 		if(operacion==1){
 			resultado = num_uno+num_dos;
-			System.out.println("el resultado de la suma es: "+resultado);
+			System.out.println("El resultado de la suma es: "+resultado);
 		}else if(operacion==2){
 			resultado = num_uno-num_dos;
-			System.out.println("el resultado de la resta es: "+resultado);
+			System.out.println("El resultado de la resta es: "+resultado);
 		}else if(operacion==3){
 			resultado = num_uno*num_dos;
-			System.out.println("el resultado de la multiplicacion es: "+resultado);
+			System.out.println("El resultado de la multiplicacion es: "+resultado);
 		}else if(operacion==4){
 			resultado = num_uno/num_dos;
-			System.out.println("el resultado de la division es: "+resultado);
+			System.out.println("El resultado de la division es: "+resultado);
+		}else{
+			System.out.println("La opcion que elegiste no existe");
 
 		}
 	}
