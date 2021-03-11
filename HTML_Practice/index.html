@@ -31,13 +31,32 @@
 		margin: 4px;
 		font-size: 80%;
 	}
+
+	table, th, td {
+		border: 1px solid black;
+		padding: 5px;
+	}
+	table {
+		border-spacing: 15px;
+	}
+
 </style>
 
 
 <meta charset="utf-8">
 <meta name="description" content="Random Website">
+<meta name="author" content="Mike Bateman">
+<meta name="keywords" content="Html, Practice">
+<meta name="viewport" content=width=device-width, initial-scale=1.0>
 <title>Html Practice</title>
 <img src="html-image.png" alt="html_image" width="150" >
+
+
+
+
+
+<hr>
+
 </head>
 <body>
 	<header>
@@ -54,6 +73,36 @@
 
 
 			<h3>Using Aside</h3>
+			<form>
+				<p>Email</p>
+				<input type="text" value="Enter your email">
+				<br><br>
+				<p>Password</p>
+				<input type="password" value="">
+				<br>
+				<br>
+				<p>Text Area</p>
+				<textarea rows="4" cols="19"></textarea>
+				<br>
+				<br>
+				<input type="date">
+				<br>
+				<br>
+				<input type="range">
+				<br>
+				<br>
+				<input type="file">
+				<br>
+				<br>
+				<input type="checkbox">
+				<br>
+				<br>
+				<input name ="btn" type="radio">
+				<input name ="btn" type="radio">
+				<br>
+				<br>
+				<input type="submit">
+			</form>
 			<aside>
 				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -68,24 +117,79 @@
 	<main>
 		<section>
 
-			<h2>Text using h2</h2> 
-			<!-- Random Comment-->
 			<br>
-			<p>Text 1 using "p" <b><i>Text using italics</i></b></p>
-			<hr>
-			<p>Text 2 using "p" </p>
-			<p>Text using <big>BIG</big></p>
-			<p>Text using <small>small</small></p>
-			<p>3<sup>2</sup> = = 27</p>
-			<p>43<sub>10</sub> = = 2B<sub>hex</sub></p>
 
-			<video src="video.mp4" controls width="300" =""></video>
+			<video src="video.mp4" controls height="200" poster="thumb.jpg"></video>
+
+			<iframe height="200"  src="https://www.youtube.com/embed/qGYFQQptiYc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+
+			<br>
+			<br>
+<h3>This isn't an image, this is a Scalable Vector Graphic (SVG)</h3>
+<svg height="130" width="500">
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255,0,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,0,255);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+  <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86">SVG</text>
+  Sorry, your browser does not support inline SVG.
+</svg>
 
 
 			<p style="color: blue;">Blue text</p>
 			<p style="color: #654321; background-color: #FFEEEE">Custom text color(#654321) + Custom Background color(#FFEEEE)</p>
 
+			<ul> <h2>Some cool websites that I didn't do but I like them</h2>
+				<li><a href="https://refold.la/">Language learning </a></li>
+				<ol>I'm currently learning Japanese using this method/website</ol>
+				<iframe src="https://refold.la/" width="1000" height="600" frameborder="0">Refold</iframe>
+				<li><a href="https://jacksonpollock.org/">Random Painting</a></li>
+				<ol>You can move around the website to paint something</ol>
+				<iframe src="https://jacksonpollock.org/" width="1000" height="600" frameborder="0">Painting</iframe>
 
+				<li><a href="https://mondrianandme.com/">Squares and Rectangles art</a></li>
+				<ol>Click anywhere inside the webpage and see what happens</ol>
+				<iframe src="https://mondrianandme.com/" width="1000" height="600" frameborder="0">Squares and Rectangles art</iframe>
+
+			</ul>
+
+			<hr>
+			<caption><h2>Table</h2></caption>
+			<table class="tablespaceclass">
+				<tr>
+					<td><b>Rock</b></td>
+					<td><b>Pop</b></td>
+					<td><b>House</b></td>
+				</tr>
+
+				<tr>
+					<td>Muse</td>
+					<td>The Weeknd</td>
+					<td>Daft Punk</td>
+				</tr>
+
+				<tr>
+					<td>Bloc Party</td>
+					<td>Maroon 5</td>
+					<td>Avicii</td>
+				</tr>
+			</table>
+
+
+
+			<hr>
+
+			<h2>Text using h2</h2> 
+			<!-- Random Comment-->
+			<p>Text 1 using "p" <b><i>Text using italics</i></b></p>
+			<p>Text 2 using "p" </p>
+			<p>Text using <big>BIG</big></p>
+			<p>Text using <small>small</small></p>
+			<p>3<sup>2</sup> = = 27</p>
+			<p>43<sub>10</sub> = = 2B<sub>hex</sub></p>
 
 		</section>
 
@@ -106,6 +210,11 @@
 					<p>Microsoft Edge is a web browser developed by Microsoft, released in 2015. Microsoft Edge replaced Internet Explorer.</p>
 				</article>
 			</article>
+		</section>
+
+		<section>
+			
+
 		</section>
 
 
