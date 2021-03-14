@@ -1,0 +1,17 @@
+@keyframes change-color{
+	0%{background-color: red; top:10px; left:10px;}
+	15%{background-color: orange; top:20px; left:20px;}
+	30%{background-color: yellow; top:30px; left:30px;}
+	25%{background-color: green; top:40px; left:40px;}
+	70%{background-color: blue; top:50px; left:50px;}
+	100%{background-color: purple; top:60px; left:60px;}
+
+}
+
+.box-animation:hover{
+	position: relative;
+	animation-name: change-color;
+	animation-duration: 2s;
+	animation-iteration-count: infinite
+	;
+}
