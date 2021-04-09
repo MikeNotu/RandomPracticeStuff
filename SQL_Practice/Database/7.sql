@@ -1,0 +1,3 @@
+ ALTER TABLE Persons
+
+DROP COLUMN Birthday;
